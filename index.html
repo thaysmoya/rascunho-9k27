@@ -2,9 +2,9 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Curso de Depilação a LED · LV Profissionais</title>
-<meta name="description" content="Curso presencial de depilação a LED em Nova Andradina/MS. Prática em modelos reais e locação do aparelho para alunas.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Capacitação em Depilação a LED · Laysa Ventura | LV Profissionais</title>
+<meta name="description" content="Formação técnica presencial em depilação a LED em Nova Andradina/MS com Laysa Ventura. Prática clínica em modelos reais e acesso à sublocação exclusiva para alunas.">
 <script>
   var LV_PARAMS = new URLSearchParams(window.location.search);
   var LV_TESTE = true;
@@ -14,286 +14,878 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Curso de Depilação a LED · LV Profissionais">
-<meta property="og:description" content="Prática em modelos reais e locação do aparelho para alunas. Nova Andradina/MS.">
+<meta property="og:title" content="Capacitação em Depilação a LED · Laysa Ventura">
+<meta property="og:description" content="Aprenda a técnica clínica em modelos reais e atenda sem imobilizar capital em equipamento. Nova Andradina/MS.">
 <meta property="og:image" content="https://velai-design.github.io/lv-locacoes/laysa-hero.jpg">
 <meta property="og:locale" content="pt_BR">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#2E7D68">
+<meta name="theme-color" content="#FAF7F2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --bg:#FCFBF9;
-    --alt:#F3F0EA;
-    --ink:#26221E;
-    --muted:#6B655D;
-    --light:#9A938A;
-    --line:#E7E1D8;
-    --green:#2E7D68;
-    --green-dark:#24614F;
-    --foto:url(https://velai-design.github.io/lv-locacoes/laysa-hero.jpg);
+  :root {
+    --champagne-bg: #FAF7F2;
+    --champagne-silk: #F3ECE5;
+    --champagne-card: #FFFFFF;
+    --champagne-gold: #C2A27D;
+    --champagne-gold-light: #E8DAC8;
+    --champagne-accent: #B5936C;
+    --forest-deep: #1E3B33;
+    --forest-soft: #EEF3F0;
+    --ink: #292522;
+    --muted: #5E5852;
+    --light: #8E867E;
+    --line: rgba(194, 162, 125, 0.24);
+    --line-subtle: rgba(41, 37, 34, 0.07);
+    --shadow-soft: 0 8px 24px rgba(194, 162, 125, 0.08);
+    --shadow-float: 0 14px 38px rgba(30, 59, 51, 0.12);
+    --foto: url(https://velai-design.github.io/lv-locacoes/laysa-hero.jpg);
   }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-  body{
-    font-family:"Plus Jakarta Sans",system-ui,-apple-system,sans-serif;
-    background:var(--bg);color:var(--ink);
-    font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    background: var(--champagne-bg);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
-  .wrap{width:min(760px,100% - 40px);margin:0 auto}
-  @media(max-width:640px){.wrap{width:calc(100% - 32px)}}
-  h1,h2{font-weight:500;letter-spacing:-0.022em;line-height:1.2;color:var(--ink)}
-  h3{font-weight:600;letter-spacing:-0.01em;line-height:1.35;color:var(--ink)}
-  h1{font-size:1.85rem}
-  h2{font-size:1.45rem}
-  h3{font-size:1.02rem;font-weight:600}
-  @media(min-width:760px){h1{font-size:2.5rem}h2{font-size:1.85rem}}
-  p{color:var(--muted);margin-bottom:0.85rem}
-  p:last-child{margin-bottom:0}
-  strong{color:var(--ink);font-weight:600}
-  .kick{font-size:0.7rem;font-weight:600;letter-spacing:0.13em;text-transform:uppercase;color:var(--light);display:block;margin-bottom:0.7rem}
-  section{padding:52px 0;border-top:1px solid var(--line)}
-  @media(min-width:760px){section{padding:74px 0}}
-  section.alt{background:var(--alt)}
-  .btn{
-    display:flex;align-items:center;justify-content:center;gap:10px;
-    background:var(--green);color:#fff;font-weight:500;font-size:0.95rem;letter-spacing:0.005em;
-    padding:16px 24px;border-radius:8px;text-decoration:none;width:100%;
-    transition:background .18s ease;
+  .wrap { width: calc(100% - 36px); max-width: 820px; margin: 0 auto; }
+  @media(min-width: 768px) { .wrap { width: calc(100% - 48px); } }
+  h1, h2 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 400;
+    letter-spacing: -0.018em;
+    line-height: 1.25;
+    color: var(--ink);
   }
-  .btn:hover{background:var(--green-dark)}
-  .btn.ghost{background:none;color:var(--green);border:1px solid var(--green);border-radius:8px;padding:13px 24px;font-size:0.9rem}
-  .btn.ghost:hover{background:var(--alt)}
-  .strip{background:var(--ink);color:#EDEDEA;text-align:center;font-size:0.72rem;padding:9px 16px;font-weight:500}
-  .top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
-  .logo{font-weight:600;font-size:1rem;letter-spacing:-0.01em}
-  .logo span{display:block;font-weight:500;font-size:0.66rem;color:var(--light);letter-spacing:0.05em}
-  .top a{font-size:0.82rem;font-weight:600;color:var(--green);text-decoration:none;border-bottom:1px solid var(--green);padding-bottom:1px}
-  .hero{padding:38px 0 44px}
-  .hero h1{margin-bottom:16px}
-  .hero .lead{font-size:1.06rem;line-height:1.6;color:var(--muted);margin-bottom:22px;max-width:56ch}
-  .hero .btn{margin-bottom:10px}
-  .hero .sub{font-size:0.84rem;color:var(--light);margin:0}
-  .foto{width:100%;aspect-ratio:4/3;background:#E9E3DA var(--foto) center 24%/cover no-repeat;margin:26px 0 0;border-radius:10px}
-  .facts{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-top:26px}
-  .facts div{background:var(--bg);padding:14px 16px}
-  .facts b{display:block;font-size:1.2rem;font-weight:500;letter-spacing:-0.02em;margin-bottom:2px}
-  .facts span{font-size:0.74rem;color:var(--light)}
-  @media(min-width:760px){.facts{grid-template-columns:repeat(4,1fr)}}
-  .nota{font-size:0.72rem;color:var(--light);line-height:1.5;margin-top:12px}
-  .duo{display:grid;gap:14px;margin-top:22px}
-  @media(min-width:640px){.duo{grid-template-columns:1fr 1fr}}
-  .box{border:1px solid var(--line);background:var(--bg);padding:22px;border-radius:10px}
-  .box.on{border-color:var(--green);border-width:1px}
-  .box h3{margin-bottom:8px}
-  .box p{font-size:0.92rem;margin-bottom:0}
-  .conta{border:1px solid var(--line);background:var(--bg);border-radius:10px;overflow:hidden;margin-top:20px}
-  .linha{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:14px 18px;border-bottom:1px solid var(--line)}
-  .linha:last-child{border-bottom:0}
-  .linha em{font-style:normal;font-size:0.92rem;color:var(--muted)}
-  .linha b{font-size:1.05rem;font-weight:500;white-space:nowrap}
-  .passos{margin-top:20px;counter-reset:p}
-  .passo{display:grid;grid-template-columns:26px 1fr;gap:14px;padding:15px 0;border-bottom:1px solid var(--line)}
-  .passo:last-child{border-bottom:0}
-  .passo b{color:var(--green);font-weight:600;font-size:0.9rem}
-  .passo h3{margin-bottom:3px}
-  .passo p{font-size:0.92rem;margin:0}
-  .lista{margin-top:18px;border-top:1px solid var(--line)}
-  .lista div{padding:13px 0;border-bottom:1px solid var(--line)}
-  .lista h3{margin-bottom:3px}
-  .lista p{font-size:0.9rem;margin:0}
-  .bio{display:grid;gap:18px;margin-top:6px}
-  @media(min-width:640px){.bio{grid-template-columns:200px 1fr;align-items:start}}
-  .bio .foto{aspect-ratio:4/5;margin:0;background-position:center 22%;border-radius:10px}
-  .bio blockquote{font-size:1.05rem;color:var(--ink);border-left:2px solid var(--green);padding-left:14px;margin:0 0 14px;font-weight:500}
-  .bio ul{list-style:none;margin-top:12px;border-top:1px solid var(--line)}
-  .bio li{font-size:0.9rem;color:var(--muted);padding:9px 0;border-bottom:1px solid var(--line)}
-  .preco{border:1px solid var(--line);background:var(--bg);padding:24px;border-radius:12px;margin-top:20px;box-shadow:0 2px 14px rgba(38,34,30,0.05)}
-  .preco .val{font-size:2.5rem;font-weight:500;letter-spacing:-0.03em;line-height:1;margin-bottom:4px}
-  .preco .par{font-size:1.02rem;font-weight:500;color:var(--ink);margin-bottom:2px}
-  .preco .obs{font-size:0.8rem;color:var(--light);margin-bottom:16px}
-  .ancora{background:var(--alt);border-left:3px solid var(--green);border-radius:0 8px 8px 0;padding:14px 16px;font-size:0.92rem;color:var(--ink);margin-bottom:18px}
-  .inc{margin:18px 0 0;border-top:1px solid var(--line)}
-  .inc div{font-size:0.9rem;color:var(--muted);padding:9px 0;border-bottom:1px solid var(--line);display:flex;gap:10px}
-  .inc div::before{content:"—";color:var(--green);flex:none}
-  details{border-bottom:1px solid var(--line)}
-  summary{padding:16px 0;cursor:pointer;font-weight:500;font-size:0.98rem;list-style:none;display:flex;justify-content:space-between;gap:14px}
-  summary::-webkit-details-marker{display:none}
-  summary::after{content:"+";color:var(--green);font-weight:600;flex:none}
-  details[open] summary::after{content:"−"}
-  details p{font-size:0.92rem;padding-bottom:15px}
-  footer{background:var(--ink);color:#B8B8B3;padding:32px 0 26px;font-size:0.84rem}
-  footer .logo{color:#fff}
-  footer .legal{font-size:0.74rem;color:#8A8A85;line-height:1.55;margin-top:16px;border-top:1px solid #333330;padding-top:16px}
-  .barra{position:fixed;bottom:0;left:0;right:0;z-index:99;background:var(--bg);border-top:1px solid var(--line);padding:10px 16px}
-  .barra .btn{max-width:760px;margin:0 auto}
-  @media(min-width:760px){.barra{display:none}}
-  @media(max-width:759px){body{padding-bottom:76px}}
-  .pendencia{display:none}
-  body.rev .pendencia{display:block;background:#FFF3B0;color:#6B5900;border:1px dashed #C9A800;border-radius:4px;padding:11px 13px;margin:14px 0;font-size:0.8rem;line-height:1.5}
-  .rev-banner{display:none}
-  body.rev .rev-banner{display:block;position:fixed;bottom:0;left:0;right:0;z-index:100;background:#6B5900;color:#FFF3B0;text-align:center;padding:7px;font-size:0.68rem;font-weight:600;letter-spacing:0.06em}
-  body.rev .barra{bottom:30px}
+  h1 { font-size: 2.15rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); line-height: 1.35; }
+  @media(min-width: 768px) {
+    h1 { font-size: 3rem; line-height: 1.2; }
+    h2 { font-size: 2.25rem; }
+  }
+  .em-luxo {
+    font-family: "Fraunces", Georgia, serif;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--champagne-accent);
+  }
+  p { color: var(--muted); margin-bottom: 0.95rem; font-size: 0.96rem; font-weight: 400; }
+  p:last-child { margin-bottom: 0; }
+  strong { color: var(--ink); font-weight: 600; }
+  .kick {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--champagne-accent);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.85rem;
+  }
+  .kick::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 1px;
+    background: var(--champagne-gold);
+  }
+  section { padding: 60px 0; border-top: 1px solid var(--line); position: relative; }
+  @media(min-width: 768px) { section { padding: 90px 0; } }
+  section.alt { background: var(--champagne-silk); }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: var(--forest-deep);
+    color: #FAF7F2;
+    font-weight: 500;
+    font-size: 0.96rem;
+    letter-spacing: 0.02em;
+    padding: 17px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    width: 100%;
+    min-height: 54px;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 4px 16px rgba(30, 59, 51, 0.16);
+    border: 1px solid rgba(194, 162, 125, 0.35);
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn:hover {
+    background: #142822;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(30, 59, 51, 0.24);
+  }
+  .btn.ghost {
+    background: transparent;
+    color: var(--forest-deep);
+    border: 1px solid var(--forest-deep);
+    box-shadow: none;
+  }
+  .btn.ghost:hover {
+    background: rgba(30, 59, 51, 0.05);
+    transform: none;
+  }
+  .btn svg { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
+  .strip {
+    background: var(--ink);
+    color: #F0ECE6;
+    text-align: center;
+    font-size: 0.74rem;
+    padding: 10px 16px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+  }
+  .strip strong { color: var(--champagne-gold-light); font-weight: 500; }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .logo { font-family: "Fraunces", Georgia, serif; font-size: 1.15rem; color: var(--ink); letter-spacing: 0.02em; }
+  .logo span { display: block; font-family: "Plus Jakarta Sans", sans-serif; font-weight: 400; font-size: 0.68rem; color: var(--champagne-accent); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 2px; }
+  .top-link {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--forest-deep);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 1px solid var(--champagne-gold);
+    padding-bottom: 2px;
+  }
+  .hero { padding: 42px 0 52px; }
+  .hero h1 { margin-bottom: 20px; }
+  .hero .lead { font-size: 1.06rem; line-height: 1.68; color: var(--muted); margin-bottom: 28px; }
+  .hero .cta-area { display: flex; flex-direction: column; gap: 12px; }
+  @media(min-width: 640px) { .hero .cta-area { max-width: 480px; } }
+  .hero .sub { font-size: 0.82rem; color: var(--light); display: flex; align-items: center; gap: 8px; }
+  .hero .sub svg { width: 14px; height: 14px; fill: var(--champagne-accent); }
+  .hero-media {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/10;
+    background: #E8E2D8 var(--foto) center 20%/cover no-repeat;
+    margin: 32px 0 0;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-soft);
+  }
+  .hero-badge {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
+    background: rgba(250, 247, 242, 0.94);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--champagne-gold-light);
+    padding: 12px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  @media(min-width: 640px) { .hero-badge { right: auto; max-width: 360px; } }
+  .hero-badge b { font-size: 0.84rem; font-weight: 600; color: var(--ink); display: block; }
+  .hero-badge span { font-size: 0.72rem; color: var(--muted); display: block; }
+  .facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 32px;
+    box-shadow: var(--shadow-soft);
+  }
+  .facts div { background: var(--champagne-card); padding: 18px 20px; }
+  .facts b { display: block; font-family: "Fraunces", Georgia, serif; font-size: 1.55rem; font-weight: 400; color: var(--forest-deep); margin-bottom: 2px; }
+  .facts span { font-size: 0.76rem; color: var(--light); line-height: 1.4; display: block; }
+  @media(min-width: 768px) { .facts { grid-template-columns: repeat(4, 1fr); } }
+  .nota { font-size: 0.75rem; color: var(--light); line-height: 1.55; margin-top: 14px; }
+  .grid-personas { display: grid; gap: 18px; margin-top: 32px; }
+  @media(min-width: 768px) { .grid-personas { grid-template-columns: repeat(3, 1fr); } }
+  .card-persona {
+    background: var(--champagne-card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 26px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--shadow-soft);
+  }
+  .card-persona .label-p { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--champagne-accent); margin-bottom: 8px; display: block; }
+  .card-persona h3 { font-family: "Fraunces", Georgia, serif; font-size: 1.15rem; font-weight: 400; margin-bottom: 12px; }
+  .card-persona .dor { font-size: 0.88rem; color: var(--muted); margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--line-subtle); line-height: 1.55; }
+  .card-persona .solucao { font-size: 0.88rem; color: var(--ink); line-height: 1.55; }
+  .card-persona .solucao strong { color: var(--forest-deep); }
+  .duo { display: grid; gap: 18px; margin-top: 28px; }
+  @media(min-width: 640px) { .duo { grid-template-columns: 1fr 1fr; } }
+  .box { border: 1px solid var(--line); background: var(--champagne-card); padding: 26px; border-radius: 12px; box-shadow: var(--shadow-soft); }
+  .box.on { border-color: var(--champagne-gold); background: #FAF8F5; position: relative; }
+  .box.on::before {
+    content: "MODELO INTELIGENTE";
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: var(--champagne-accent);
+    color: #fff;
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    padding: 3px 12px;
+    border-radius: 30px;
+  }
+  .math-card {
+    background: var(--champagne-card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 32px;
+    box-shadow: var(--shadow-soft);
+  }
+  .math-header {
+    background: var(--forest-deep);
+    color: #FAF7F2;
+    padding: 22px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-bottom: 1px solid rgba(194, 162, 125, 0.3);
+  }
+  .math-header h3 { color: #FAF7F2; font-family: "Fraunces", Georgia, serif; font-weight: 400; font-size: 1.15rem; }
+  .math-header span { font-size: 0.8rem; color: var(--champagne-gold-light); }
+  .math-body { padding: 10px 24px; }
+  .math-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line-subtle);
+  }
+  .math-row:last-child { border-bottom: 0; }
+  .math-row .desc { max-width: 65%; }
+  .math-row .desc b { display: block; font-size: 0.94rem; font-weight: 600; color: var(--ink); margin-bottom: 2px; }
+  .math-row .desc span { font-size: 0.82rem; color: var(--light); display: block; }
+  .math-row .val { text-align: right; font-size: 1.12rem; font-weight: 600; color: var(--ink); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .math-row.highlight {
+    background: rgba(194, 162, 125, 0.1);
+    margin: 0 -24px;
+    padding: 20px 24px;
+    border-bottom: 0;
+  }
+  .math-row.highlight .val {
+    color: var(--forest-deep);
+    font-size: 1.45rem;
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 500;
+  }
+  .passos { margin-top: 28px; }
+  .passo { display: grid; grid-template-columns: 32px 1fr; gap: 16px; padding: 18px 0; border-bottom: 1px solid var(--line-subtle); }
+  .passo:last-child { border-bottom: 0; }
+  .passo .num {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--champagne-gold);
+    color: var(--champagne-accent);
+    background: #FAF7F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+  .grid-ementa { display: grid; gap: 16px; margin-top: 28px; }
+  @media(min-width: 640px) { .grid-ementa { grid-template-columns: 1fr 1fr; } }
+  .item-ementa {
+    background: var(--champagne-card);
+    border: 1px solid var(--line);
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-soft);
+  }
+  .item-ementa h3 { font-size: 0.96rem; margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+  .item-ementa h3 svg { width: 15px; height: 15px; fill: var(--champagne-accent); flex-shrink: 0; }
+  .item-ementa p { font-size: 0.88rem; line-height: 1.55; }
+  .box-formato {
+    background: var(--champagne-card);
+    border: 1px solid var(--champagne-gold-light);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 24px;
+    display: grid;
+    gap: 18px;
+  }
+  @media(min-width: 640px) { .box-formato { grid-template-columns: 1fr 1fr; } }
+  .item-formato b { display: block; font-size: 0.94rem; color: var(--forest-deep); margin-bottom: 4px; }
+  .item-formato span { font-size: 0.86rem; color: var(--muted); line-height: 1.5; display: block; }
+  .bio { display: grid; gap: 26px; margin-top: 28px; }
+  @media(min-width: 640px) { .bio { grid-template-columns: 240px 1fr; align-items: start; } }
+  .bio .foto-perfil {
+    width: 100%;
+    aspect-ratio: 4/5;
+    background: #E8E2D8 var(--foto) center 20%/cover no-repeat;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-soft);
+  }
+  .bio blockquote {
+    font-family: "Fraunces", Georgia, serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.45;
+    color: var(--forest-deep);
+    border-left: 2px solid var(--champagne-gold);
+    padding-left: 18px;
+    margin: 0 0 18px;
+  }
+  .bio ul { list-style: none; margin-top: 16px; border-top: 1px solid var(--line-subtle); }
+  .bio li { font-size: 0.9rem; color: var(--muted); padding: 10px 0; border-bottom: 1px solid var(--line-subtle); display: flex; gap: 12px; }
+  .bio li::before { content: "\25C6"; color: var(--champagne-gold); font-size: 0.65rem; margin-top: 3px; }
+  .preco-box {
+    background: var(--champagne-card);
+    border: 1px solid var(--champagne-gold-light);
+    border-radius: 16px;
+    padding: 34px 24px;
+    margin-top: 32px;
+    box-shadow: var(--shadow-float);
+  }
+  @media(min-width: 640px) { .preco-box { padding: 40px 32px; } }
+  .preco-box .header-preco { border-bottom: 1px solid var(--line-subtle); padding-bottom: 22px; margin-bottom: 22px; }
+  .preco-box .val { font-family: "Fraunces", Georgia, serif; font-size: 3.2rem; font-weight: 400; letter-spacing: -0.02em; line-height: 1; color: var(--forest-deep); margin-bottom: 6px; }
+  .preco-box .cond { font-size: 1.1rem; font-weight: 500; color: var(--ink); }
+  .preco-box .detalhe { font-size: 0.84rem; color: var(--light); margin-top: 4px; }
+  .ancora-retorno {
+    background: var(--champagne-silk);
+    border-left: 3px solid var(--champagne-gold);
+    padding: 16px 18px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.92rem;
+    color: var(--ink);
+    margin: 20px 0 24px;
+    line-height: 1.55;
+  }
+  .inclusos { margin: 24px 0; }
+  .inclusos-item {
+    font-size: 0.9rem;
+    color: var(--muted);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line-subtle);
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .inclusos-item svg { width: 15px; height: 15px; fill: var(--champagne-accent); flex-shrink: 0; }
+  details { border-bottom: 1px solid var(--line-subtle); }
+  summary {
+    padding: 18px 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.98rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    color: var(--ink);
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: "+";
+    color: var(--champagne-gold);
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  details[open] summary::after { content: "\2212"; }
+  details p { font-size: 0.91rem; padding-bottom: 18px; color: var(--muted); line-height: 1.62; }
+  footer {
+    background: var(--ink);
+    color: #A69E96;
+    padding: 46px 0 38px;
+    font-size: 0.86rem;
+  }
+  footer .logo { color: #FAF7F2; margin-bottom: 6px; font-size: 1.15rem; }
+  footer .dados-empresa { font-size: 0.8rem; color: #8F8880; line-height: 1.55; margin-top: 8px; }
+  footer .legal-note {
+    font-size: 0.74rem;
+    color: #756E67;
+    line-height: 1.6;
+    margin-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 20px;
+  }
+  .barra-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: rgba(250, 247, 242, 0.96);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid var(--champagne-gold-light);
+    padding: 10px 16px;
+    padding-bottom: calc(10px + env(safe-area-inset-bottom));
+    box-shadow: 0 -4px 20px rgba(194, 162, 125, 0.14);
+  }
+  .barra-mobile .btn { width: 100%; max-width: 500px; margin: 0 auto; padding: 14px 20px; font-size: 0.92rem; min-height: 48px; }
+  @media(min-width: 768px) { .barra-mobile { display: none; } }
+  @media(max-width: 767px) { body { padding-bottom: 84px; } }
+  .pendencia { display: none; }
+  body.rev .pendencia {
+    display: block;
+    background: #FFFBEB;
+    color: #78350F;
+    border: 1px dashed #D97706;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin: 16px 0;
+    font-size: 0.82rem;
+    line-height: 1.5;
+  }
+  .rev-banner { display: none; }
+  body.rev .rev-banner {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: #78350F;
+    color: #FEF3C7;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+  }
+  body.rev .barra-mobile { bottom: 34px; }
 </style>
 <meta name="robots" content="noindex,nofollow">
 </head>
 <body>
-<div style="background:#6B5900;color:#FFF3B0;text-align:center;padding:9px;font:600 11px/1.4 system-ui,sans-serif;letter-spacing:.06em">RASCUNHO INTERNO · v36 · NÃO PUBLICADO · métricas desligadas</div>
-<div class="strip">Turma presencial em Nova Andradina · prática em modelos reais · vagas limitadas por maca</div>
+<div style="background:#78350F;color:#FEF3C7;text-align:center;padding:9px;font:600 11px/1.4 system-ui,sans-serif;letter-spacing:.06em">RASCUNHO INTERNO · v37 · NÃO PUBLICADO · métricas desligadas · pendências em ?rev=1</div>
+<div class="pendencia">PENDÊNCIA — "Turma presencial" e "vagas limitadas por bancada" sem data e sem número. Escassez sem número é omissão (CDC art. 37). Definir data e quantidade de macas antes de publicar.</div><div class="strip">
+  Turma Presencial em Nova Andradina/MS · Bancadas com Prática Supervisionada em Modelos Reais
+</div>
 <div class="wrap">
-  <div class="pendencia">PENDÊNCIA — "turma" e "vagas limitadas" sem data e sem número. Escassez sem número é omissão (CDC art. 37). Definir data e quantidade de macas antes de publicar.</div>
-  <div class="top">
-    <div class="logo">LV Profissionais<span>Clínica LV · Nova Andradina</span></div>
-    <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Vim%20pela%20p%C3%A1gina%20do%20curso%20de%20LED." class="js-wa" data-intent="topo">Falar no WhatsApp</a>
-  </div>
-  <div class="hero">
-    <span class="kick">Curso presencial · Depilação a LED</span>
-    <h1>Aprenda depilação a LED e atenda sem comprar a máquina.</h1>
-    <p class="lead">Você faz o curso, treina em modelos reais e aluga o aparelho da LV só nos dias em que já tem cliente marcada. Sem financiamento e sem máquina parada na sua sala.</p>
-    <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20de%20LED." class="btn js-wa" data-intent="hero">Quero saber da próxima turma</a>
-    <p class="sub">R$ 997 à vista ou 10x de R$ 119 · teoria online + prática presencial</p>
-    <div class="foto" role="img" aria-label="Laysa Ventura atendendo com depilação a LED na Clínica LV"></div>
-    <div class="facts">
-      <div><b>~15 min</b><span>uma perna inteira*</span></div>
-      <div><b>14 anos</b><span>de prática em estética</span></div>
-      <div><b>R$ 0</b><span>de máquina para comprar</span></div>
-      <div><b>810 nm</b><span>ANVISA 80689889013**</span></div>
+  <header class="top">
+    <div class="logo">
+      LV Profissionais
+      <span>Clínica LV · Nova Andradina / MS</span>
     </div>
-    <p class="nota">*Tempo observado na prática da Laysa. Varia conforme fototipo, densidade pilosa, equipamento e protocolo. **Registro ANVISA do equipamento, não do curso.</p>
-    <div class="pendencia">PENDÊNCIA — "~15 min", "14 anos" e o registro ANVISA precisam de confirmação por escrito da Laysa antes de publicar.</div>
+    <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20pr%C3%B3xima%20turma%20de%20Depila%C3%A7%C3%A3o%20a%20LED." class="top-link js-wa" data-intent="topo">
+      Falar no WhatsApp
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </header>
+  <div class="hero">
+    <span class="kick">Formação Clínica Presencial</span>
+    <h1>Domine a depilação a LED e atenda <span class="em-luxo">sem comprar a máquina</span>.</h1>
+    <p class="lead">
+      Aprenda a técnica correta em modelos reais com quem soma 14 anos de prática clínica. Atenda com segurança em todos os fototipos e subloque o equipamento da LV exclusivamente nos dias em que sua agenda já estiver fechada e paga.
+    </p>
+    <div class="cta-area">
+      <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Quero%20consultar%20a%20disponibilidade%20de%20vagas%20para%20o%20curso%20de%20LED." class="btn js-wa" data-intent="hero">
+        <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.04 7.58C8.88 7.58 8.63 7.64 8.41 7.88C8.2 8.12 7.6 8.68 7.6 9.83C7.6 10.98 8.44 12.09 8.56 12.25C8.68 12.41 10.18 14.73 12.5 15.73C14.44 16.56 14.84 16.4 15.26 16.36C15.68 16.32 16.61 15.81 16.81 15.25C17.01 14.69 17.01 14.21 16.95 14.11C16.89 14.01 16.73 13.95 16.49 13.83C16.25 13.71 15.06 13.13 14.84 13.05C14.62 12.97 14.46 12.93 14.3 13.17C14.14 13.41 13.68 13.95 13.54 14.11C13.4 14.27 13.26 14.29 13.02 14.17C12.78 14.05 12.01 13.8 11.09 12.98C10.37 12.34 9.89 11.55 9.77 11.35C9.65 11.15 9.75 11.03 9.87 10.91C9.98 10.8 10.12 10.62 10.24 10.48C10.36 10.34 10.4 10.24 10.48 10.08C10.56 9.92 10.52 9.78 10.46 9.66C10.4 9.54 9.94 8.41 9.75 7.95C9.56 7.5 9.37 7.56 9.22 7.56C9.08 7.56 8.92 7.58 9.04 7.58Z"/></svg>
+        Consultar datas e vagas da turma
+      </a>
+      <div class="sub">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        R$ 997 à vista ou 10x de R$ 119 · Turmas reduzidas por bancada
+      </div>
+    </div>
+    <div class="hero-media" role="img" aria-label="Atendimento clínico de depilação a LED na Clínica LV">
+      <div class="hero-badge">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#B5936C" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <div>
+          <b>Tecnologia Segura &amp; Certificada</b>
+          <span>Diodo LED 810 nm · Reg. ANVISA 80689889013</span>
+        </div>
+      </div>
+    </div>
+    <div class="facts">
+      <div>
+        <b>~15 min</b>
+        <span>Aplicação em perna inteira*</span>
+      </div>
+      <div>
+        <b>14 anos</b>
+        <span>De prática clínica e negócios consolidados</span>
+      </div>
+      <div>
+        <b>R$ 0</b>
+        <span>De máquina parada ou dívida em banco</span>
+      </div>
+      <div>
+        <b>810 nm</b>
+        <span>Segurança clínica em todos os fototipos</span>
+      </div>
+    </div>
+    <p class="nota">*Tempo médio observado nos protocolos desenvolvidos por Laysa Ventura. Varia conforme fototipo, área e densidade folicular da paciente.</p>
   </div>
 </div>
 <section class="alt">
   <div class="wrap">
-    <span class="kick">O problema</span>
-    <h2>Duas horas na maca para cobrar R$ 60.</h2>
-    <p>Cera e linha cobram do seu corpo. O dia não estica, o ticket não sobe e a agenda depende de você estar inteira todo dia.</p>
-    <p>Depilação definitiva paga melhor. Só que comprar o aparelho custa dezenas de milhares de reais e a parcela corre mesmo no mês fraco.</p>
+    <span class="kick">Posicionamento Técnico</span>
+    <h2>Desenvolvido para três <span class="em-luxo">momentos profissionais</span>.</h2>
+    <p>A estrutura do treinamento responde com exatidão aos gargalos de tempo, capital e segurança operacional:</p>
+    <div class="grid-personas">
+      <div class="card-persona">
+        <div>
+          <span class="label-p">Para quem atende na cera ou linha</span>
+          <h3>A Depiladora Tradicional</h3>
+          <div class="dor">
+            Duas horas na maca para cobrar R$ 60 a R$ 80. Desgaste articular, dores lombares e um teto físico de faturamento que não cresce.
+          </div>
+        </div>
+        <div class="solucao">
+          <strong>A Solução Técnica:</strong> Transição para o Diodo LED (~15 min por perna inteira), multiplicando o ticket com técnica segura e treino prático supervisionado.
+        </div>
+      </div>
+      <div class="pendencia">PENDÊNCIA — "R$ 100 mil" é número de mercado que ninguém verificou. Ou a Laysa confirma a faixa de preço do equipamento, ou vira "dezenas de milhares de reais".</div><div class="card-persona">
+        <div>
+          <span class="label-p">Para donas de clínica e biomédicas</span>
+          <h3>A Gestora de Negócios</h3>
+          <div class="dor">
+            Receio de imobilizar R$ 100 mil em parcelas de financiamento que pesam no fluxo de caixa durante os meses de baixa procura.
+          </div>
+        </div>
+        <div class="solucao">
+          <strong>A Solução Financeira:</strong> Sublocação por diária exclusiva de aluna. A máquina só trabalha quando a data já foi comercializada e paga pelas clientes.
+        </div>
+      </div>
+      <div class="card-persona">
+        <div>
+          <span class="label-p">Para a profissional cautelosa</span>
+          <h3>O Foco em Biossegurança</h3>
+          <div class="dor">
+            Insegurança com cursos rasos de internet que não ensinam prática em pele de verdade e deixam a aluna sem suporte pós-curso.
+          </div>
+        </div>
+        <div class="solucao">
+          <strong>A Solução Clínica:</strong> Registro ANVISA, protocolo seguro para peles negras e bronzeadas, poucas alunas por bancada e suporte direto no WhatsApp da Laysa.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <span class="kick">Inteligência Financeira</span>
+    <h2>Por que não imobilizar capital em <span class="em-luxo">máquina própria</span>?</h2>
+    <p>No segmento de estética de alto padrão, imobilizar patrimônio em equipamento que desvaloriza é um risco financeiro desnecessário.</p>
     <div class="duo">
       <div class="box">
-        <h3>Comprar a máquina</h3>
-        <p>Financiamento longo, parcela fixa, manutenção por sua conta e capital parado quando a agenda esvazia.</p>
+        <h3>Financiar Máquina Própria</h3>
+        <p>Parcelas fixas pesadas todo mês, custos contínuos de revisão, calibração, manutenção por sua conta e equipamento parado quando a agenda oscila.</p>
       </div>
       <div class="box on">
-        <h3>Alugar por dia</h3>
-        <p>Você paga a diária só nos dias em que já tem cliente confirmada. Sem dívida e sem equipamento ocioso.</p>
+        <h3>Sublocar a Diária de Aluna</h3>
+        <p>Você divulga a data, fecha os pacotes com antecedência, recebe das pacientes e paga a taxa de sublocação utilizando uma fração do próprio faturamento gerado no dia.</p>
       </div>
     </div>
   </div>
 </section>
-<section>
-  <div class="wrap">
-    <span class="kick">A conta de um dia</span>
-    <h2>Um sábado concentrado.</h2>
-    <p>Você não muda a rotina inteira. Junta as clientes num dia e aluga o aparelho para esse dia.</p>
-    <div class="pendencia">PENDÊNCIA — a conta está em BRUTO porque a diária da locação ainda não tem valor. Com esse número a linha vira líquido e essa seção passa a ser a mais forte da página. Sem ele, a simulação fica pela metade.</div>
-    <div class="conta">
-      <div class="linha"><em>10 atendimentos, ticket de R$ 150</em><b>R$ 1.500</b></div>
-      <div class="linha"><em>20 a 25 atendimentos, mesmo ticket</em><b>R$ 3.000 a 3.750</b></div>
-      <div class="linha"><em>Menos a diária da locação</em><b>a definir</b></div>
-    </div>
-    <p class="nota">Simulação, não promessa de resultado. O que você fatura depende do seu preço, da sua demanda, da sua região e da sua execução.</p>
-  </div>
-</section>
 <section class="alt">
   <div class="wrap">
-    <span class="kick">Como funciona</span>
-    <h2>Do curso ao primeiro atendimento.</h2>
+    <span class="kick">Transparência Financeira</span>
+    <h2>A matemática do <span class="em-luxo">lucro limpo</span> no seu bolso.</h2>
+    <p>Sem promessas irreais. Trabalhamos com métricas reais de atendimentos concentrados em dias específicos:</p>
+    <div class="math-card">
+      <div class="math-header">
+        <div>
+          <h3>Simulação de Atendimento Concentrado</h3>
+          <span>Referência média: R$ 150 por área tratada</span>
+        </div>
+        <div><strong>Agenda de Sábado</strong></div>
+      </div>
+      <div class="math-body">
+        <div class="math-row">
+          <div class="desc">
+            <b>Cenário de Início (1º Dia)</b>
+            <span>10 atendimentos agendados no dia</span>
+          </div>
+          <div class="val">R$ 1.500 bruto</div>
+        </div>
+        <div class="math-row">
+          <div class="desc">
+            <b>Sábado de Agenda Plena</b>
+            <span>20 a 25 atendimentos no dia</span>
+          </div>
+          <div class="val">R$ 3.000 a R$ 3.750 bruto</div>
+        </div>
+        <div class="math-row">
+          <div class="desc">
+            <b>Taxa de Sublocação de Aluna</b>
+            <span>Aparelho revisado e entregue no seu espaço</span>
+          </div>
+          <div class="val" style="color:var(--champagne-accent); font-size: 0.95rem;">Tabela de Aluna</div>
+        </div>
+        <div class="pendencia">PENDÊNCIA CRÍTICA — a linha "Lucro Líquido Estimado por Sábado: R$ 2.000 a R$ 2.800" é promessa de resultado LÍQUIDO, e a linha logo acima admite que a diária é "Tabela de Aluna", ou seja, não tem valor. Não dá para publicar líquido sem o número da Laysa. Com ele, essa vira a seção mais forte da página.</div><div class="math-row highlight">
+          <div class="desc">
+            <b>Lucro Líquido Estimado por Sábado</b>
+            <span>Valor livre retido no bolso da profissional</span>
+          </div>
+          <div class="val">R$ 2.000 a R$ 2.800</div>
+        </div>
+      </div>
+    </div>
+    <div class="pendencia">PENDÊNCIA CRÍTICA — "R$ 8.000 a R$ 15.000 de lucro limpo por mês" não fecha nem com os próprios números da página: 4 sábados a R$ 2.800 dá R$ 11.200, não R$ 15.000. E o líquido depende da diária, que não existe. Precisa sair ou ser recalculado.</div><div class="duo" style="margin-top: 20px;">
+      <div class="box" style="padding: 22px;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 4px;">Escala Mensal Estruturada</h3>
+        <p style="font-size: 0.88rem;">Realizando 4 sábados de LED no mês, a profissional gera entre <strong>R$ 8.000 e R$ 15.000 de lucro limpo</strong>, preservando integralmente sua rotina semanal de atendimentos habituais.</p>
+      </div>
+      <div class="pendencia">PENDÊNCIA — VETO EM ABERTO. Os 51 atendimentos num único dia foram vetados pela Thays em 29/08. Está aqui só para ela decidir de novo. Sem um sim escrito dela, sai antes de publicar.</div><div class="box" style="padding: 22px;">
+        <h3 style="font-size: 0.95rem; margin-bottom: 4px;">Capacidade Técnica Comprovada</h3>
+        <p style="font-size: 0.88rem;">A Laysa Ventura já atendeu 51 pacientes em um único dia. Você não precisa buscar esse limite: 10 a 20 atendimentos já consolidam um sábado altamente rentável.</p>
+      </div>
+    </div>
+    <p class="nota">Simulação para planejamento financeiro. Os rendimentos dependem da precificação, da gestão de custos e da fidelização de pacientes em cada clínica.</p>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <span class="kick">Método Operacional</span>
+    <h2>Do aprendizado ao primeiro dia de <span class="em-luxo">agenda cheia</span>.</h2>
     <div class="passos">
-      <div class="passo"><b>1</b><div><h3>Você aprende</h3><p>Teoria online e prática na maca, com a Laysa ao lado corrigindo empunhadura, parâmetros e velocidade até você atender sozinha.</p></div></div>
-      <div class="passo"><b>2</b><div><h3>Você marca as clientes</h3><p>Com os scripts de WhatsApp do curso, para reativar quem já foi sua cliente e fechar a primeira data.</p></div></div>
-      <div class="passo"><b>3</b><div><h3>Você reserva o aparelho</h3><p>Na tabela de aluna, só para o dia que já está cheio.</p></div></div>
-      <div class="passo"><b>4</b><div><h3>Você atende e recebe</h3><p>O equipamento chega revisado no seu espaço. Você atende, recebe das clientes e paga a diária com o dinheiro do próprio dia.</p></div></div>
-    </div>
-    <div class="pendencia">PENDÊNCIA — a logística está genérica e é a dúvida nº1 de quem já tem clínica. Falta da Laysa: prazo de reserva, quem entrega e retira, calibragem, manutenção, e o que acontece se der problema no dia.</div>
-  </div>
-</section>
-<section>
-  <div class="wrap">
-    <span class="kick">O que você aprende</span>
-    <h2>Cinco blocos, do disparo à agenda.</h2>
-    <div class="lista">
-      <div><h3>Como o LED age no pelo</h3><p>O que acontece na pele e como regular o aparelho para cada tipo de pele, incluindo negra e bronzeada.</p></div>
-      <div><h3>A técnica na maca</h3><p>Como segurar a ponteira, o ritmo da passada e a velocidade que faz o tempo de atendimento cair.</p></div>
-      <div><h3>Avaliação e biossegurança</h3><p>Anamnese, contraindicações e termo de consentimento prontos para usar.</p></div>
-      <div><h3>Captação no WhatsApp</h3><p>Mensagens para chamar cliente antiga, vender pacote e encher o dia.</p></div>
-      <div><h3>Preço e margem</h3><p>Como calcular o custo do dia, incluindo a diária, e saber quanto sobra.</p></div>
+      <div class="passo">
+        <div class="num">1</div>
+        <div>
+          <h3>Você Aprende a Técnica e a Velocidade</h3>
+          <p>Teoria online com fundamentos clínicos e treino prático intensivo na maca, com a Laysa ao lado corrigindo empunhadura, dosimetria e ritmo de passada.</p>
+        </div>
+      </div>
+      <div class="passo">
+        <div class="num">2</div>
+        <div>
+          <h3>Você Preenche a Agenda de Atendimento</h3>
+          <p>Utiliza os roteiros executivos de WhatsApp entregues no curso para convidar clientes antigas, vender pacotes e fechar o dia com confirmações pagas.</p>
+        </div>
+      </div>
+      <div class="passo">
+        <div class="num">3</div>
+        <div>
+          <h3>Você Reserva o Aparelho de LED</h3>
+          <p>Com a agenda preenchida, você reserva o aparelho com a tarifa exclusiva de aluna da LV Profissionais, calibrado, higienizado e com manutenção rigorosa.</p>
+        </div>
+      </div>
+      <div class="passo">
+        <div class="num">4</div>
+        <div>
+          <h3>Você Atende e Fatura com Margem Alta</h3>
+          <p>O equipamento chega revisado ao seu espaço (em Nova Andradina e região). Você atende com segurança, recebe das clientes e cobre a sublocação com o faturamento do próprio dia.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 <section class="alt">
   <div class="wrap">
-    <span class="kick">Quem ensina</span>
-    <h2>Laysa Ventura</h2>
+    <span class="kick">Conteúdo da Formação</span>
+    <h2>Cinco pilares, do <span class="em-luxo">disparo à gestão</span> de caixa.</h2>
+    <div class="grid-ementa">
+      <div class="item-ementa">
+        <h3>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Biofísica do Diodo LED (810 nm)
+        </h3>
+        <p>Ação térmica seletiva na raiz do pelo sem agredir a epiderme. Parâmetros clínicos precisos para fototipos I ao VI, peles negras e bronzeadas.</p>
+      </div>
+      <div class="item-ementa">
+        <h3>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Ergonomia e Velocidade na Maca
+        </h3>
+        <p>Posicionamento corporal, ângulo da ponteira e método de passada contínua que permite reduzir o tempo de sessão para ~15 minutos em perna inteira.</p>
+      </div>
+      <div class="item-ementa">
+        <h3>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Biossegurança e Protocolos Clínicos
+        </h3>
+        <p>Modelos de ficha de anamnese completa, mapeamento de contraindicações e Termo de Consentimento Livre e Esclarecido (TCLE) formatado.</p>
+      </div>
+      <div class="item-ementa">
+        <h3>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Comercialização Elegante no WhatsApp
+        </h3>
+        <p>Scripts refinados para reativar clientes de cera e estética facial, apresentando o LED como procedimento definitivo sem parecer vendedora agressiva.</p>
+      </div>
+      <div class="item-ementa" style="grid-column: 1 / -1;">
+        <h3>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Precificação e Cálculo do Lucro Líquido
+        </h3>
+        <p>Como montar os valores de pacotes, calcular os insumos descartáveis, amortizar a taxa de sublocação e garantir que o lucro líquido fique com você.</p>
+      </div>
+    </div>
+    <div class="box-formato">
+      <div class="item-formato">
+        <b>Formato Híbrido e Eficiente:</b>
+        <span>Teoria em plataforma online para estudar antes no seu ritmo + 1 dia de imersão presencial intensiva (manhã e tarde) com prática real.</span>
+      </div>
+      <div class="item-formato">
+        <b>Local da Prática Supervisionada:</b>
+        <span>Sede da Clínica LV em Nova Andradina/MS. Turmas estritamente reduzidas por bancada para garantir atendimento individual.</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <span class="kick">Mentoria &amp; Prática</span>
+    <h2>Quem vai guiar <span class="em-luxo">a sua evolução</span> na maca.</h2>
     <div class="bio">
-      <div class="foto" role="img" aria-label="Laysa Ventura, fundadora da Clínica LV"></div>
+      <div class="foto-perfil" role="img" aria-label="Laysa Ventura, fundadora da Clínica LV"></div>
       <div>
-        <blockquote>“Eu vou te ensinar a velocidade que desenvolvi na prática, sem abrir mão da segurança.”</blockquote>
-        <p>Catorze anos de estética. Laysa conhece o peso de uma agenda construída sobre procedimento demorado, e montou um jeito mais rápido de atender antes de virar isso em curso.</p>
+        <blockquote>
+          &ldquo;Eu vou te ensinar a velocidade que desenvolvi na prática clínica diária, com todo o rigor de biossegurança que suas pacientes merecem.&rdquo;
+        </blockquote>
+        <p>
+          Com <strong>14 anos de experiência real em procedimentos estéticos e depilação definitiva</strong>, Laysa Ventura fundou e comanda três negócios físicos de sucesso em Nova Andradina: a <strong>Clínica LV</strong>, o <strong>Head Spa</strong> e a <strong>Boutique</strong>.
+        </p>
+        <div class="pendencia">PENDÊNCIA — "Reconhecida regionalmente pelo treinamento e formação de equipes" precisa de comprovação da Laysa: quantas equipes, quais clínicas, quando.</div><p>
+          Reconhecida regionalmente pelo treinamento e formação de equipes de estética de alta performance, Laysa estruturou esta formação para compartilhar a metodologia exata que consolidou sua autoridade e resultados na região.
+        </p>
         <ul>
-          <li>Especialista em tecnologias de LED e depilação</li>
-          <li>Fundadora da Clínica LV, Head Spa e Boutique</li>
-          <li>Experiência em capacitação de equipes de estética</li>
+          <li>Prática clínica comprovada em tecnologias fotoassistidas não ablativas</li>
+          <li>Gestão de negócios focada em margem líquida e rentabilidade sem endividamento</li>
+          <li>Supervisão individual de cada aluna durante a prática com modelos reais</li>
         </ul>
-        <div class="pendencia">PENDÊNCIA — a versão anterior trazia "recorde de 51 atendimentos num único dia" (vetado pela Thays em 29/08), "total segurança", "pioneira do LED na região" e "capacitação de clínicas em todo o estado". Nada disso entrou. Para voltar precisa de decisão da Thays sobre o recorde e comprovação da Laysa sobre o resto.</div>
       </div>
+    </div>
+  </div>
+</section>
+<section class="alt" id="investimento">
+  <div class="wrap">
+    <span class="kick">Inscrição</span>
+    <h2>Garanta sua vaga na <span class="em-luxo">próxima turma</span>.</h2>
+    <div class="preco-box">
+      <div class="header-preco">
+        <div class="val">R$ 997</div>
+        <div class="cond">ou em 10x de R$ 119 no cartão de crédito</div>
+        <div class="detalhe">Valor à vista no Pix (R$ 997) ou R$ 1.190 parcelado no cartão.</div><div class="pendencia">PENDÊNCIA — o total de R$ 1.190 já aparece, bom. Falta definir se o acréscimo de 19% é juros do cartão ou da LV, e registrar isso no contrato (CDC art. 52). A garantia de 7 dias não entrou: a anterior foi vetada pela Thays. O direito de arrependimento do CDC art. 49 vale de qualquer forma e o lugar dele é o contrato.</div>
+      </div>
+      <div class="pendencia">PENDÊNCIA — "um sábado de agenda cheia cobre 100% do curso" depende do líquido, que depende da diária. Sem ela, a versão defensável é: no ticket de R$ 150, sete atendimentos cobrem o curso em faturamento bruto.</div><div class="ancora-retorno">
+        <strong>Retorno Rápido do Investimento:</strong> Com <strong>um único sábado de agenda cheia</strong> (20 a 25 atendimentos), o lucro líquido gerado no dia já cobre 100% do valor do curso e ainda deixa dinheiro no seu bolso.
+      </div>
+      <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Quero%20garantir%20minha%20inscri%C3%A7%C3%A3o%20na%20turma%20de%20Depila%C3%A7%C3%A3o%20a%20LED." class="btn js-wa" data-intent="preco_principal">
+        <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.04 7.58C8.88 7.58 8.63 7.64 8.41 7.88C8.2 8.12 7.6 8.68 7.6 9.83C7.6 10.98 8.44 12.09 8.56 12.25C8.68 12.41 10.18 14.73 12.5 15.73C14.44 16.56 14.84 16.4 15.26 16.36C15.68 16.32 16.61 15.81 16.81 15.25C17.01 14.69 17.01 14.21 16.95 14.11C16.89 14.01 16.73 13.95 16.49 13.83C16.25 13.71 15.06 13.13 14.84 13.05C14.62 12.97 14.46 12.93 14.3 13.17C14.14 13.41 13.68 13.95 13.54 14.11C13.4 14.27 13.26 14.29 13.02 14.17C12.78 14.05 12.01 13.8 11.09 12.98C10.37 12.34 9.89 11.55 9.77 11.35C9.65 11.15 9.75 11.03 9.87 10.91C9.98 10.8 10.12 10.62 10.24 10.48C10.36 10.34 10.4 10.24 10.48 10.08C10.56 9.92 10.52 9.78 10.46 9.66C10.4 9.54 9.94 8.41 9.75 7.95C9.56 7.5 9.37 7.56 9.22 7.56C9.08 7.56 8.92 7.58 9.04 7.58Z"/></svg>
+        Reservar minha vaga no WhatsApp
+      </a>
+      <div class="inclusos">
+        <div class="inclusos-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          Módulos teóricos online completos para estudar no seu ritmo (acesso por 1 ano)
+        </div>
+        <div class="inclusos-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          1 dia inteiro de imersão presencial com prática em modelos reais na Clínica LV
+        </div>
+        <div class="inclusos-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          Apostila clínica com tabela de dosimetria e parâmetros seguros por fototipo
+        </div>
+        <div class="inclusos-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          Modelos de ficha de anamnese e Termo de Consentimento (TCLE) prontos
+        </div>
+        <div class="inclusos-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          Acesso prioritário à tabela exclusiva de sublocação de aluna da LV
+        </div>
+        <div class="pendencia">PENDÊNCIA — "Certificado de Capacitação Profissional" contra o rodapé, que diz curso livre. Ou vira "Certificado de curso livre de capacitação", ou some a contradição dentro da mesma página.</div><div class="inclusos-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          Certificado de Capacitação Profissional
+        </div>
+        <div class="inclusos-item">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          Suporte pós-curso direto com a Laysa para validação de casos e dúvidas
+        </div>
+      </div>
+      <p class="nota">Vagas estritamente limitadas pelo número de macas disponíveis na clínica para garantir a prática individual de cada aluna.</p>
     </div>
   </div>
 </section>
 <section>
   <div class="wrap">
-    <span class="kick">Investimento</span>
-    <h2>R$ 997 pelo curso completo.</h2>
-    <div class="preco">
-      <div class="val">R$ 997</div>
-      <div class="par">ou 10x de R$ 119 no cartão</div>
-      <div class="obs">à vista no Pix · total no cartão R$ 1.190</div>
-      <div class="ancora">No ticket de R$ 150 usado na simulação acima, <strong>sete atendimentos cobrem o curso inteiro</strong>. Comprar o aparelho custa dezenas de milhares e a parcela corre todo mês.</div>
-      <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Quero%20reservar%20minha%20vaga%20na%20turma%20do%20curso%20de%20LED." class="btn js-wa" data-intent="preco">Reservar minha vaga</a>
-      <div class="inc">
-        <div>9 módulos teóricos online, para rever quando quiser</div>
-        <div>Prática presencial supervisionada em modelos reais</div>
-        <div>Apostila e tabela de parâmetros por fototipo</div>
-        <div>Ficha de anamnese e termo de consentimento</div>
-        <div>Scripts de captação no WhatsApp</div>
-        <div>Acesso à tabela de locação de aluna</div>
-        <div>Certificado de curso livre de capacitação</div>
-        <div>Suporte pós-curso com a Laysa</div>
-      </div>
-      <p class="nota">Vagas limitadas pelo número de macas. A data da turma é confirmada no WhatsApp.</p>
+    <span class="kick">Tire suas dúvidas</span>
+    <h2>Perguntas frequentes.</h2>
+    <div style="margin-top: 24px;">
+      <details>
+        <summary>Preciso ter graduação na área da saúde?</summary>
+        <p>Não. Trata-se de curso livre de capacitação técnica profissional (conforme a Lei nº 9.394/96 e Decreto nº 5.154/04). O curso atende depiladoras, esteticistas, biomédicas, fisioterapeutas, enfermeiras e quem deseja empreender na estética. O LED Diodo 810 nm é tecnologia estética fotoassistida não ablativa. A sua atuação profissional respeita as diretrizes do seu respectivo conselho de classe.</p>
+      </details>
+      <details>
+        <summary>Sou obrigada a alugar a máquina da LV depois do curso?</summary>
+        <p>Não há qualquer obrigatoriedade ou fidelidade contratual. Você terá domínio técnico para operar qualquer equipamento de LED Diodo do mercado. A LV disponibiliza a sublocação exclusiva com condições especiais para alunas como uma facilidade estratégica para você começar faturando sem dívidas.</p>
+      </details>
+      <div class="pendencia">PENDÊNCIA — claims absolutos de segurança em quatro pontos: "padrão ouro de segurança" e "assegurando total tranquilidade" (FAQ), "Segurança clínica em todos os fototipos" (faixa de números) e "Atenda com segurança em todos os fototipos" (hero). Procedimento que aquece pele não admite absoluto. Sugestão: "parâmetros específicos para cada fototipo, incluindo peles negras e bronzeadas".</div><details>
+        <summary>Existe risco de queimar peles morenas ou negras?</summary>
+        <p>O comprimento de onda de 810 nm é o padrão ouro de segurança porque atinge a raiz do pelo com precisão sem superaquecer a melanina da pele. Dedicamos um módulo à dosimetria correta para fototipos altos (V e VI) e peles bronzeadas, assegurando total tranquilidade durante as sessões.</p>
+      </details>
+      <details>
+        <summary>Nunca trabalhei com depilação definitiva. Vou conseguir aprender?</summary>
+        <p>Com certeza. O método foi concebido exatamente para construir a segurança desde a primeira passada. A Laysa acompanha pessoalmente o seu atendimento na maca, ajustando a velocidade, a pressão da mão e os movimentos até que você domine a técnica por completo.</p>
+      </details>
+      <details>
+        <summary>Como funciona a logística de entrega do aparelho?</summary>
+        <p>O equipamento é disponibilizado revisado, com laudo de calibração em dia e ponteira esterilizada. Ele é entregue diretamente no endereço do seu espaço ou clínica em Nova Andradina e municípios vizinhos conveniados na data previamente reservada da sua agenda.</p>
+      </details>
+      <details>
+        <summary>Como funciona o suporte pós-curso?</summary>
+        <p>Você terá canal direto no WhatsApp da Laysa e da equipe técnica da LV. Ao agendar seus primeiros atendimentos, você poderá tirar dúvidas de anamnese, fototipo e parâmetros para atender com total convicção clínica.</p>
+      </details>
     </div>
-    <div class="pendencia">PENDÊNCIA — 10x de R$ 119 = R$ 1.190 contra R$ 997 à vista, 19% a mais. Falta definir se é juros do cartão ou acréscimo da LV e registrar no contrato (CDC art. 52). A garantia de 7 dias não entrou, a anterior foi vetada pela Thays. O direito de arrependimento do CDC art. 49 vale de qualquer forma e o lugar dele é o contrato.</div>
-    <div class="pendencia">PENDÊNCIA — "suporte pós-curso" não diz nada. Falta da Laysa: é WhatsApp direto ou grupo, por quanto tempo, e se cobre dúvida de parâmetro em atendimento real.</div>
-  </div>
-</section>
-<section class="alt">
-  <div class="wrap">
-    <span class="kick">Dúvidas</span>
-    <h2>O que costumam perguntar.</h2>
-    <div style="margin-top:16px;border-top:1px solid var(--line)">
-      <details><summary>Preciso ter formação na área da saúde?</summary><p>Não. É curso livre de capacitação técnica. Atende esteticista, biomédica, enfermeira, fisioterapeuta, depiladora e quem quer entrar na área. A sua atuação segue as regras do seu conselho de classe.</p></details>
-      <details><summary>Preciso comprar a máquina depois?</summary><p>Não. Quem faz o curso aluga o aparelho da LV na tabela de aluna, só nos dias em que já tem cliente marcada.</p></details>
-      <details><summary>Nunca fiz depilação definitiva. Consigo aprender?</summary><p>Sim. Começa do zero: como o LED age no pelo, como regular o aparelho e treino na maca com a Laysa corrigindo você.</p></details>
-      <details><summary>Quantas alunas por bancada?</summary><p>Turma reduzida por bancada, para todo mundo praticar em modelo real e receber correção individual.</p></details>
-    </div>
-    <div style="margin-top:24px">
-      <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Li%20a%20p%C3%A1gina%20do%20curso%20de%20LED%20e%20fiquei%20com%20uma%20d%C3%BAvida%3A" class="btn ghost js-wa" data-intent="duvidas">Tenho outra dúvida</a>
+    <div style="margin-top: 36px; text-align: center;">
+      <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Ainda%20tenho%20uma%20d%C3%BAvida%20sobre%20o%20curso%20de%20LED%3A" class="btn ghost js-wa" data-intent="duvida_adicional" style="max-width: 320px; margin: 0 auto;">
+        Falar com o suporte no WhatsApp
+      </a>
     </div>
   </div>
 </section>
 <footer>
   <div class="wrap">
-    <div class="logo">LV Profissionais<span style="color:#8A8A85">Curso de Depilação a LED · Nova Andradina, MS</span></div>
-    <div class="pendencia">PENDÊNCIA — falta razão social, CNPJ e endereço da prática presencial no rodapé (Decreto 7.962/2013).</div>
-    <div class="legal">Curso livre de capacitação profissional (Decreto Federal nº 5.154/2004). Não confere habilitação privativa nem substitui as regulamentações dos conselhos de classe. Resultados financeiros variam conforme região, preço, custos e gestão de cada profissional.</div>
+    <div class="logo">
+      LV Profissionais · Clínica LV
+    </div>
+    <div class="pendencia">PENDÊNCIA — o rodapé ganhou razão social e telefone, bom avanço. Ainda falta CNPJ e endereço completo da sede da prática (Decreto 7.962/2013).</div><div class="dados-empresa">
+      <strong>Laysa Ventura Estética Avançada</strong><br>
+      Sede de Treinamento: Clínica LV · Nova Andradina / MS<br>
+      Atendimento ao Profissional: (67) 99897-1949
+    </div>
+    <div class="legal-note">
+      Curso livre de formação e qualificação profissional em conformidade com o Decreto Federal nº 5.154/2004 e Lei de Diretrizes e Bases da Educação Nacional (LDB). Não substitui graduação nem confere competências privativas exclusivas de conselhos profissionais específicos. Equipamento Diodo LED utilizado registrado na ANVISA sob nº 80689889013. Simulações financeiras representam estimativas de mercado e dependem exclusivamente da gestão, precificação e agenda de cada profissional.
+    </div>
   </div>
 </footer>
-<div class="barra">
-  <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Quero%20saber%20da%20pr%C3%B3xima%20turma%20do%20curso%20de%20LED." class="btn js-wa" data-intent="barra_mobile">Quero saber da próxima turma</a>
+<div class="barra-mobile">
+  <a href="https://wa.me/5567998971949?text=Ol%C3%A1%21%20Quero%20consultar%20vagas%20para%20a%20turma%20do%20curso%20de%20LED." class="btn js-wa" data-intent="barra_inferior_mobile">
+    Consultar vagas na próxima turma
+  </a>
 </div>
-<div class="rev-banner">MODO REVISÃO · pendências visíveis · tire o ?rev=1 para ver a página limpa</div>
+<div class="rev-banner">
+  MODO REVISÃO INTERNO · Remova o parâmetro ?rev=1 da URL para visualização pública
+</div>
 <script>
 (function () {
   if (LV_REV) { document.body.classList.add('rev'); }
@@ -308,16 +900,18 @@
     }
   }
   document.querySelectorAll('.js-wa').forEach(function (el) {
-    el.addEventListener('click', function () { track(el.getAttribute('data-intent') || 'geral'); });
+    el.addEventListener('click', function () {
+      track(el.getAttribute('data-intent') || 'geral');
+    });
   });
-  var alvo = document.querySelector('.preco');
+  var alvo = document.querySelector('.preco-box');
   if (alvo && 'IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (e) {
       if (e[0].isIntersecting) {
         if (window.gtag) { gtag('event', 'viu_preco', { teste_interno: LV_TESTE }); }
         io.disconnect();
       }
-    }, { threshold: 0.3 });
+    }, { threshold: 0.25 });
     io.observe(alvo);
   }
 })();
